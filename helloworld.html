@@ -6,11 +6,36 @@
 <body>
 	
 	<script>
-		var = name
-		name =  window.prompt("Please enter your name")
-		document.writeln("<p>Good Evening, " + name + ", welcome to JavaSript programming!</p>")
+
+		var x=window.prompt("Guess the number bewteen 1~10");
+		y=parseInt(x);
+		var z=Math.floor((Math.random()*10)+1);
+		while(y != z){
+			var x=window.prompt("Guess the number bewteen 1~10");
+			y=parseInt(x);
+		
+		}
+
+		document.writeln("<p>Congradulation!");
+
+
+
+
+
+
+
+
+
+
+
+
+		
 	</script>
-	
+
+
+
+
+
 	<input type="button" value="red"
 	onclick="document.body.style.backgroundColor ='red';">
 	<input type="button" value="danger alert"
